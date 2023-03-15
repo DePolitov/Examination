@@ -1,0 +1,716 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #F8F9FF;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+
+}
+
+.top-part {
+    padding-top: 50px;
+    height: 815px;
+    background-image: url(./img/background-top.png);
+    background-size: cover;
+}
+
+.btn {
+    background: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+    width: 200px;
+    height: 50px;
+    border: solid 1px #2A407C;
+    ;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background: #EF2A82;
+    color: white;
+}
+
+.top-menu-row {
+    width: 1181px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.top-menu-nav {
+    display: flex;
+    gap: 36px;
+    margin-left: 96px;
+    margin-right: 314px;
+}
+
+.top-menu-row a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8794BA;
+}
+
+.top-menu-sign {
+    display: flex;
+    gap: 50px;
+}
+
+.top-part-content-text {
+    width: 550px;
+    height: 315px;
+    margin-top: 152px;
+    margin-left: 210px;
+}
+
+.top-part-content-text h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.top-part-content-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+    margin-bottom: 49px;
+}
+
+.top-part-content {
+    display: flex;
+    gap: 150px;
+}
+
+.top-part-big-chart {
+    margin-top: 74px;
+}
+
+.top-part-small-chart {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 800px;
+}
+
+.main-features {
+    background: #F8F9FF;
+}
+
+.main-features h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #172755;
+    margin-top: 38px;
+    /* margin-left: 100px; */
+    text-align: center;
+}
+
+.main-features p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+    margin-top: 30px;
+}
+
+.main-features-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 81px;
+    margin-bottom: 130px;
+
+}
+
+.main-features-icons article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-features-icons article p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.main-features-icons article h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #172755;
+    margin-top: 26px;
+}
+
+.main-features-screen {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.main-features-screen article h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    width: 480px;
+}
+
+.main-features-screen article p {
+    text-align: left;
+    width: 480px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    gap: 50px
+}
+
+.prices-plans {
+    background: url(./img/background-bottom.png);
+    height: 1069px;
+    padding-top: 255px;
+}
+
+.prices-plans h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.prices-plans p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #8794BA;
+    width: 620px;
+    margin: 30px 490px 80px auto;
+}
+
+.prices-plans-card {
+    width: 340px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0F1F4B;
+    opacity: 0.7;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    border-radius: 30px;
+    padding-top: 50px;
+}
+
+.prices-plans-card:hover {
+    background: white;
+    opacity: 1;
+}
+
+.prices-plans-card:hover h4 {
+    color: #000000;
+}
+
+.prices-plans-card:hover h3 {
+    color: #000000;
+}
+
+.prices-plans-card:hover button {
+    background: #EF2A82;
+    ;
+}
+
+.prices-plans-card h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.prices-plans-card h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #8794BA;
+    margin-top: 10px;
+}
+
+.prices-plans-card hr {
+    width: 220px;
+    color: #2A407C;
+    height: 0px;
+    opacity: 0.5;
+    margin-top: 37px;
+}
+
+.prices-plans-card h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.prices-plans-card h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #8794BA;
+    margin-bottom: 56px;
+}
+
+.prices-plan-cards-box {
+    display: flex;
+    gap: 80px;
+    margin-left: 210px;
+}
+
+.sign-up-block {
+    width: 962px;
+    height: 522px;
+    margin-top: 109px;
+    margin-bottom: 109px;
+    display: flex;
+    background: #F9F0FF;
+    gap: 26px;
+}
+
+.sign-up-advert {
+    width: 481px;
+    background: #F8F9FF;
+}
+
+.sign-up-advert h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #160637;
+    margin-top: 47px;
+}
+
+.sign-up-advert p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8989A2;
+}
+
+.sign-up-advert hr {
+    width: 144px;
+    height: 0px;
+    left: 319px;
+    top: 1408px;
+    border: 1px solid #D6D6D6;
+}
+
+.trusted-by {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 75px;
+}
+
+.advert-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 110px;
+    margin-top: 50px;
+}
+
+.sign-up-form {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 12px rgba(137, 137, 162, 0.122);
+    border-radius: 8px;
+    align-items: center;
+    padding: 32px 40px;
+    gap: 16px;
+    width: 428px;
+    height: 475px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sign-up-form button {
+    background: #722ED1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 344px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-up-form h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #160637;
+}
+
+.sign-up-form hr {
+    width: 336px;
+    height: 0px;
+    opacity: 0.48;
+    border: 1px solid #8989A2;
+}
+
+.sign-up-form h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.sign-up-form p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8989A2;
+}
+
+.sign-up-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sign-up-form .mail {
+    width: 344px;
+    height: 48px;
+    opacity: 0.48;
+    border: 1px solid #8989A2;
+    padding-left: 5px;
+}
+
+.sign-up-form .pass1 {
+    width: 344px;
+    height: 48px;
+    opacity: 0.48;
+    border: 1px solid #8989A2;
+    padding-left: 5px;
+}
+
+.sign-up-form .pass2 {
+    width: 344px;
+    height: 48px;
+    opacity: 0.48;
+    border: 1px solid #8989A2;
+    padding-left: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 154px;
+    background: #1F2F5C;
+    padding-left: 210px;
+    gap: 310px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 36px;
+}
+
+.footer-nav a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #8794BA;
+}
+
+.footer-social {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-social svg {
+    fill: #8794BA
+}
+
+svg:hover {
+    fill: white;
+}
+
+.error {
+    border-color: 1px solid red;
+}
+
+.good {
+    border: 1px solid rgb(19, 173, 21);
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (max-width: 376px) {
+    .banner {
+        width: 376px;
+    }
+
+    .container {
+        width: 335px;
+    }
+
+    .top-part {
+        padding-top: 0px;
+    }
+
+    .top-menu-nav {
+        display: none;
+    }
+
+    .top-menu-sign .btn {
+        display: none;
+    }
+
+    .top-menu-row {
+        margin-left: 20px;
+        padding-top: 20px;
+        gap: 117px;
+        width: 375px;
+    }
+
+    .top-menu-row img {
+        width: 93px;
+        height: 20px;
+    }
+
+    .top-menu-row a::after {
+        content: url(./img/menu-icon.png);
+        margin-left: 18px;
+    }
+
+    .top-part-small-chart {
+        display: none;
+    }
+
+    .top-part-content {
+        flex-direction: column-reverse;
+        height: 815px;
+        gap: 0;
+    }
+
+    .top-part-big-chart {
+        width: 355px;
+        margin-top: 29px;
+    }
+
+    .top-part-content-text {
+        width: 335px;
+        height: 503.07px;
+        margin-left: 20px;
+    }
+
+    .top-part-content-text h2 {
+        font-size: 31px;
+        margin-top: -150px;
+    }
+
+    .top-part-content-text p {
+        font-size: 18px;
+        margin-bottom: 26px;
+    }
+
+    .top-part-content-text .btn {
+        width: 335px;
+        height: 50px;
+
+    }
+
+    .main-features h2 {
+        font-size: 30px;
+        text-align: left;
+
+    }
+
+    .main-features p {
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .main-features-icons {
+        flex-direction: column;
+        gap: 40px;
+        margin-left: -265px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .main-features-icons article {
+        display: block;
+
+
+    }
+
+    .main-features-icons article h5 {
+        position: absolute;
+        font-size: 16px;
+        margin-left: 87px;
+        margin-top: -70px;
+    }
+
+    .main-features-icons article p {
+        position: absolute;
+        font-size: 14px;
+        margin-left: 87px;
+        margin-top: -50px;
+        width: 246px;
+        height: 60px;
+    }
+
+    .main-features-screen {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-features-screen article h2 {
+        font-size: 30px;
+        margin-left: 10px;
+        width: 335px;
+        height: 70px;
+    }
+
+    .main-features-screen article p {
+        font-size: 14px;
+        width: 335px;
+        height: 100px;
+    }
+
+    .main-features-screen img {
+        width: 335px;
+        height: 228.92px;
+        margin-top: -30px;
+    }
+
+    .prices-plans h2 {
+        font-size: 30px;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .prices-plans p {
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        width: 335px;
+        height: 53px;
+
+    }
+
+    .prices-plan-cards-box {
+        gap: 20px;
+        margin-left: -200px;
+    }
+
+    .prices-plans-card {
+        width: 280px;
+        height: 358px;
+    }
+
+    .sign-up-advert {
+        display: none;
+    }
+
+    .sign-up-form {
+        margin-left: 0;
+        width: 375px;
+        position: absolute;
+        margin-top: -80px;
+
+    }
+
+    .sign-up-block {
+        width: 375px;
+        margin-left: 0;
+
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .footer {
+        height: 97px;
+        margin-top: -200px;
+        padding-left: 18px;
+        gap: 65px;
+    }
+
+}
